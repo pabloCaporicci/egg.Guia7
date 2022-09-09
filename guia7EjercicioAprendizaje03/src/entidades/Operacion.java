@@ -44,22 +44,19 @@ public class Operacion {
     public void crearOperacion(){
         Scanner leer = new Scanner(System.in);
         System.out.println("ingrese primer número:... ");
-        this.numero1 = leer.nextDouble();
+        numero1 = leer.nextDouble();
         System.out.println("ingrese segundo número:... ");
-        this.numero2 = leer.nextDouble();
+        numero2 = leer.nextDouble();
     }
     
     public double sumar(){
-       double  sumados = numero1 + numero2;
-       return sumados;    
+       return numero1 + numero2;    
     }
     public double restar(){
-       double  restados = numero1 - numero2;
-       return restados;
+       return numero1 - numero2;
     }
     public double multiplicar(){
-       double multiplicados = numero1 * numero2;
-       return multiplicados;
+       return numero1 * numero2;
     }
     public double dividir(){
        double divididos;
